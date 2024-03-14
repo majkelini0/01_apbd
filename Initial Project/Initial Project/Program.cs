@@ -34,3 +34,5 @@ static double GetMax(int[] numbers)
     }
     return max;
 }
+
+Console.WriteLine( GetMax(numbers) );
