@@ -12,13 +12,13 @@ Console.WriteLine("Trzeci commit");
 
 static double GetAverage(int[] numbers)
 {
-    double resulttt = 0;
+    double resuuult = 0;
     for (int i = 0; i < numbers.Length; i++)
     {
-        resulttt += numbers[i];
+        resuuult += numbers[i];
     }
 
-    return resulttt / numbers.Length;
+    return resuuult / numbers.Length;
 }
 
 int[] numbers = { 1, 2, 3, 4};
