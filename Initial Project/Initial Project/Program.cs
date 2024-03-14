@@ -24,3 +24,13 @@ static double GetAverage(int[] numbers)
 int[] numbers = { 1, 2, 3, 4};
 double average = GetAverage(numbers);
 Console.WriteLine(average);
+
+static double GetMax(int[] numbers)
+{
+    int max = numbers[0];
+    for (int i = 0; i < numbers.Length; i++)
+    {
+        if (numbers[i] > max) max = numbers[i];
+    }
+    return max;
+}
