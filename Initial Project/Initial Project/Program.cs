@@ -7,3 +7,5 @@ Console.WriteLine("Hello, World!");
 Console.WriteLine("Pierwszy commit");
 
 Console.WriteLine("Drugi commit");
+
+Console.WriteLine("Trzeci commit");
